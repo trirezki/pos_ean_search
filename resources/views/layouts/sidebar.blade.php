@@ -59,11 +59,6 @@
                     <i class="fa fa-upload"></i> <span>Penjualan</span>
                 </a>
             </li>
-            <!-- <li>
-                <a href="{{ route('penjualan') }}">
-                    <i class="fa fa-cart-arrow-down"></i> <span>History Penjualan</span>
-                </a>
-            </li> -->
             <li>
                 <a href="{{ route('transaksi.baru') }}">
                     <i class="fa fa-cart-arrow-down"></i> <span>Transaksi Baru</span>
