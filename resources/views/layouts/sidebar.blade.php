@@ -21,7 +21,6 @@
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                 </a>
             </li>
-
             @if (auth()->user()->level == 1)
             <li class="header">MASTER</li>
             <li>
