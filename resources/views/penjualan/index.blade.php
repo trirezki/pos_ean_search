@@ -24,7 +24,9 @@
                         <th>Diskon</th>
                         <th>Total Bayar</th>
                         <th>Kasir</th>
+                        @if (auth()->user()->level == 1) {
                         <th width="15%"><i class="fa fa-cog"></i></th>
+                        @endif
                     </thead>
                 </table>
             </div>

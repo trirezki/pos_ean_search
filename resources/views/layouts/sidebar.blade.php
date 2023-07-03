@@ -21,7 +21,6 @@
                     <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                 </a>
             </li>
-
             @if (auth()->user()->level == 1)
             <li class="header">MASTER</li>
             <li>
@@ -60,11 +59,11 @@
                     <i class="fa fa-upload"></i> <span>Penjualan</span>
                 </a>
             </li>
-            <li>
-                <a href="{{ route('transaksi.index') }}">
-                    <i class="fa fa-cart-arrow-down"></i> <span>Transaksi Aktif</span>
+            <!-- <li>
+                <a href="{{ route('penjualan') }}">
+                    <i class="fa fa-cart-arrow-down"></i> <span>History Penjualan</span>
                 </a>
-            </li>
+            </li> -->
             <li>
                 <a href="{{ route('transaksi.baru') }}">
                     <i class="fa fa-cart-arrow-down"></i> <span>Transaksi Baru</span>
@@ -110,8 +109,8 @@
             </li>
             @else
             <li>
-                <a href="{{ route('transaksi.index') }}">
-                    <i class="fa fa-cart-arrow-down"></i> <span>Transaksi Aktif</span>
+                <a href="{{ route('penjualan.index') }}">
+                    <i class="fa fa-cart-arrow-down"></i> <span>History Transaksi</span>
                 </a>
             </li>
             <li>
