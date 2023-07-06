@@ -25,7 +25,7 @@
             <li class="header">MASTER</li>
             <li>
                 <a href="{{ route('kategori.index') }}">
-                    <i class="fa fa-cube"></i> <span>Kategori</span>
+                    <i class="fa fa-cube"></i> <span>Paket Produk</span>
                 </a>
             </li>
             <li>
@@ -59,11 +59,6 @@
                     <i class="fa fa-upload"></i> <span>Penjualan</span>
                 </a>
             </li>
-            <!-- <li>
-                <a href="{{ route('penjualan') }}">
-                    <i class="fa fa-cart-arrow-down"></i> <span>History Penjualan</span>
-                </a>
-            </li> -->
             <li>
                 <a href="{{ route('transaksi.baru') }}">
                     <i class="fa fa-cart-arrow-down"></i> <span>Transaksi Baru</span>
