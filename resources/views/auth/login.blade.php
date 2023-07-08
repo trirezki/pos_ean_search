@@ -2,7 +2,7 @@
 
 @section('login')
 <div class="login-box">
-
+<center><h1>{{ $setting->nama_perusahaan}}</h1></center>
     <!-- /.login-logo -->
     <div class="login-box-body">
         <div class="login-logo">

@@ -31,7 +31,7 @@
                             <th width="5%">No</th>
                             <th>Kode</th>
                             <th>Nama</th>
-                            <th>Kategori</th>
+                            <th>Paket</th>
                             <th>Merk</th>
                             <th>Harga Beli</th>
                             <th>Harga Jual</th>
