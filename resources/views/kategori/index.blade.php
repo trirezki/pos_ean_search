@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Daftar Kategori
+    Daftar Paket
 @endsection
 
 @section('breadcrumb')

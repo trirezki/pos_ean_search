@@ -21,8 +21,13 @@
                     <div class="form-group row">
                         <label for="id_kategori" class="col-lg-2 col-lg-offset-1 control-label">Paket Produk</label>
                         <div class="col-lg-6">
+<<<<<<< HEAD
                             <select name="id_kategori" id="id_kategori" class="form-control" >
                                 <option value="">Pilih Paket Produk</option>
+=======
+                            <select name="id_kategori" id="id_kategori" class="form-control" required>
+                                <option value="">Pilih Paket</option>
+>>>>>>> 2ea08397de228cb0e109cb02e143b1947fe976a6
                                 @foreach ($kategori as $key => $item)
                                 <option value="{{ $key }}">{{ $item }}</option>
                                 @endforeach

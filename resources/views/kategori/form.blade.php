@@ -12,7 +12,11 @@
                 </div>
                 <div class="modal-body">
                     <div class="form-group row">
+<<<<<<< HEAD
                         <label for="nama_kategori" class="col-lg-2 col-lg-offset-1 control-label">Paket Produk</label>
+=======
+                        <label for="nama_kategori" class="col-lg-2 col-lg-offset-1 control-label">Paket</label>
+>>>>>>> 2ea08397de228cb0e109cb02e143b1947fe976a6
                         <div class="col-lg-6">
                             <input type="text" name="nama_kategori" id="nama_kategori" class="form-control" required autofocus>
                             <span class="help-block with-errors"></span>
